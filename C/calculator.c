@@ -21,6 +21,7 @@ int main()
          w = x+y;
          s = ((double)x)/y;
          exponent = pow(x,y);
+         
         if(opp == 5) {
             printf("%d to the power of %d is equal to %f", x, y, exponent );
         }
