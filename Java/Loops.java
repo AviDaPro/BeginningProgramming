@@ -6,6 +6,13 @@ public class Loops{
 
     public static void main(String[] args) {
     System.out.println("Hello world!");
+   
+    try {
+        Thread.sleep(4000);;
+    } catch (Exception E) {
+    
+    }
+   
     /*int x = 23;
     while (x<103){
       System.out.println(x);
