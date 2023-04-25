@@ -1,12 +1,14 @@
 
-
+import java.util.Random;
 import java.util.Scanner;
 public class Loops{
 
 
     public static void main(String[] args) {
     System.out.println("Hello world!");
-   
+    Random sus = new Random();
+    int x = sus.nextInt(100);
+    System.out.println(x);
     try {
         Thread.sleep(4000);;
     } catch (Exception E) {
@@ -69,14 +71,14 @@ int n = sc.nextInt();
 
 for (int i = 1; i<=10; i++) {
   
-    System.out.println(i); 
-    for (int j = 1; j<=10; j++ ) {
-        int x = i*j; 
-          System.out.print(x + " ");
+    //System.out.println(i); 
+    //for (int j = 1; j<=10; j++ ) {
+        //int x = i*j; 
+          //System.out.print(x + " ");
       }
   }
 // some really cool code above here. 
 
     }
 
-}
+
